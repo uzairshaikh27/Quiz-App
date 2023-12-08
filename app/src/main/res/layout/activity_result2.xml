@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".result_activity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center"
+android:background="@color/black"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Result"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textStyle="italic"
+
+        ></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/champions"
+        android:layout_marginTop="40dp"
+        ></ImageView>
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        tools:text="Username"
+
+        tools:textColor="#FFFFFF"></TextView>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="italic"
+
+        tools:text="Your score is 10 out of 40"></TextView>
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:background="#99A98F"
+        android:text="Finish"
+        android:textSize="30dp"
+
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black">
+
+    </Button>
+
+</LinearLayout>
